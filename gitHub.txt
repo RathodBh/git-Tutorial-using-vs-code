@@ -1,0 +1,108 @@
+GITHUB USING VISUAL STUDIO CODE
+
+1. Search 
+    > credintial manager 
+    > Windows credintial 
+    > vs code (if yes then remove it)
+
+2. create your file/ project
+
+3. In vs code 
+    > select sorce to control(ctrl + shift + G) 
+    > publish to GitHub
+    > Authenticate your account
+
+    > Then go visual studio 
+    > create repo(public/ private)
+    > select files
+
+
+EDIT OR UPDATE PROJECTS
+
+1> sorce to control
+    > select file and type commit(give any message in textboox)
+    > three dots
+    > push 
+
+
+CLONE YOUR PROJECT GIT HUB TO LOCAL(in your files)
+
+1. Code > HTTPS > copy
+
+2. blank file > source to control > clone repository > paste in textbox > select location
+
+
+
+CLONE OTHER'S PROJECT GIT HUB TO LOCAL(in your files)
+
+1. Code > HTTPS > copy
+
+2. blank file > source to control > clone repository > paste in textbox > select location
+
+3. Show hidden files
+    > delete git folder
+    > push
+
+
+DELETE repository
+
+1. Select repo in GitHub
+    > settings
+    > delete repository
+
+Fork project
+1. Go and select other user's project
+2. Select fork
+3. Now u can change code and improve and request to main user to check code and approval.
+
+4. Clone project and change or edit project
+5. Commit and Push
+6. Go github and click pull request
+ ( Request to check code to the main user)
+
+7. Create pull request
+8. Type Commit in textbox and click "create pull request"
+
+Check pull request ( owner side )
+1. Select project on github
+2. Select Pull request
+3. Merge pull request
+4. Confirm
+
+Branch
+Purpose: Used to post raw projects and after the completion of project we can push in master branch ( default )
+
+How to create branch
+> In github Select master 
+> Type name of branch
+> Hit enter
+Or
+> In vs code > view > command palatte > type "git:create branch" > hit enter
+
+How to merge branch into master
+> In github Select sub branch 
+> go to the project 
+> select "compare and pull"
+Or
+> In vs code > view > command palatte > type "git:merge branch" > hit enter
+
+Delete branch
+> Select branch
+> View all branches
+> Delete branch
+
+Change branch in vs code
+  > View
+  > Command palatte
+  > Type "git:checkout to"
+  > Select branch to active
+
+Get latest code from github into vs code
+> Source to control
+> Pull
+
+Delete local branch ( in file/vs code)
+  > View
+  > Command palatte
+  > Type "git:delete branch"
+  > Select branch to be deleted
